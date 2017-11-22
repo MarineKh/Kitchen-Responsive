@@ -1,0 +1,47 @@
+h1, h5 {
+  color: #fff; }
+
+#myHeadingMenu .heading-inner {
+  position: relative;
+  text-align: center;
+  height: 250px;
+  background: url("../images/contacts/contact-bg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover; }
+  #myHeadingMenu .heading-inner .header-inner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    #myHeadingMenu .heading-inner .header-inner-container h5 {
+      font-size: 22px;
+      font-style: italic; }
+
+#myContacts {
+  padding: 30px 0; }
+  #myContacts h5 {
+    color: #353535;
+    padding-bottom: 30px; }
+  #myContacts .form-control {
+    outline: none;
+    border: 1px solid #1b1818; }
+  #myContacts .contact-left .multiple-input {
+    outline: none;
+    border: none; }
+  #myContacts .contact-left .btn {
+    padding: 10px 20px;
+    margin: 10px 0;
+    float: right;
+    border: 1px solid #1b1818; }
+
+@media screen and (max-width: 1199px) {
+  .contact-right {
+    margin-top: 80px; } }
+@media screen and (max-width: 420px) {
+  .header-inner-container {
+    width: 100%; } }
+@media screen and (max-width: 500px) {
+  #myContacts .contact-left .multiple-input {
+    width: 30%; } }
+
+/*# sourceMappingURL=contacts.css.map */

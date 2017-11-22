@@ -1,0 +1,62 @@
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+#myHeadingMenu {
+  h1, h5 {
+    color: #fff;
+  }
+  .heading-inner {
+    position: relative;
+    text-align: center;
+    height: 250px;
+    background: url("../images/menu/menu-bg.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    .header-inner-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      h5 {
+        font-size: 22px;
+        font-style: italic;
+      }
+    }
+  }
+}
+#myMenu {
+  margin: 20px 0;
+  #container {
+    //padding: 0 100px;
+    h4 {
+      text-align: center;
+      padding: 5px 0;
+    }
+    h5 {
+      padding: 8px 0;
+    }
+    p {
+      color: #a4a4a4;
+    }
+    .mainRow {
+      position: relative;
+      .divider-inner {
+        height: 1px;
+        background-color: #353535;
+      }
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .header-inner-container  {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .price {
+    text-align: right;
+  }
+}
+
